@@ -1,0 +1,120 @@
+/* CSS Document */
+
+html {
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	color:white;
+	
+}
+body {
+	background-image:url(bgw.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#header {
+	max-width:960px;
+	margin:0px auto;
+	padding:50px 0 50px;
+	border-radius:5px;
+}
+
+#nav {
+	background-color:#2E2E2E;
+	border: 1px solid grey;
+	max-width:960px;
+	margin:0px auto;
+	margin-top:60px;
+	margin-bottom: 20px;
+	padding:20px 0 20px;
+	border-radius:5px;
+}
+
+#nav ul {
+	list-style:none;
+	text-align:center;
+}
+
+#nav ul li {
+	display:inline;
+}
+
+#nav ul li a {
+	text-decoration: none;
+	background-color:#2E2E2E;
+	padding: 36px 25px 36px 25px;
+	color:#fff;
+	margin-right: 50px;
+}
+
+#nav ul li a:hover {
+	text-decoration: none;
+	background-color:#fff;
+	color:#4A4A4A;
+}
+
+#content {
+	background-color:#2E2E2E;
+	border: 1px solid grey;
+	max-width:960px;
+	margin:0px auto;
+	padding:5px 0 5px 0;
+	border-radius:5px;
+}
+
+#content ul li{
+	list-style:none;
+	padding: 5px;
+}
+
+#content ul li a{
+	color:white;
+}
+
+#animelist ul li:hover {
+	background-color:black;
+	color:#4A4A4A;
+} 
+#content h2 {
+	text-align:center;
+}
+
+#content p {
+	text-align:justify;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+#navfooter {
+	background-color:#2E2E2E;
+	border: 1px solid grey;
+	max-width:960px;
+	padding:1px 0 1px 0;
+	margin:0px auto;
+	margin-top:30px;
+	border-radius:5px;
+}
+
+#navfooter p {
+	text-align:center;
+}
+
+#navfooter ul {
+	list-style:none;
+	text-align:center;
+}
+
+#navfooter ul li {
+	display:inline;
+}
+
+#navfooter ul li a {
+	text-decoration: none;
+	padding:0 20px 0 20px;
+	background-color:#2E2E2E;
+	color:#fff;
+	margin-right: 50px;
+}
+
+#ending p{
+	text-align:center;
+}
